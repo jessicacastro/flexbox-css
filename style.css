@@ -1,12 +1,33 @@
+html, body, #app {
+  height: 100%;
+  margin: 0;
+}
+
 #app {
   display:  flex; /* ALINHA HORIZONTALMENTE */
-  flex-direction: row; /*COMO SEGUIRÃO OS ITENS FILHOS */
-  
+  /*flex-direction: row; /*COMO SEGUIRÃO OS ITENS FILHOS */
+  /*align-items: center; /* Alinha no eixo contrário do FlexDirection */
+  /*justify-content: space-evenly; /* Alinha no mesmo eixo do FlexDirection */
+
 }
 
 .box {
-  width: 60px;
+  width: 200px;
   height: 60px;
-  background: #F00;
   margin: 5px;
+}
+
+.red {
+  order: 1;
+  background: #F00;
+}
+
+.blue {
+  background: #00F;
+  order: 0;
+}
+
+.green {
+  background: #0F0;
+  order: 2;
 }
