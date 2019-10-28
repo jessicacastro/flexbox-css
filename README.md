@@ -27,6 +27,12 @@ Alinha no eixo do flex-direction, ou seja, se tiver em coluna alinhará em colun
 - space-beetween: Alinha ao centro com espaços entre os itens, sem borda (margin).
 - space-evenly: Alinha mais ao centro com espaços.
 
+##### FLEX-WRAP:WRAP
+Ele ocupa o espaço dos itens enquanto tiver espaço naquela linha. Ou seja, se tivermos 3 itens de 150px e uma largura de 340px, ele irá deixar dois elementos na primeira linha e irá pular o terceiro elemento para a segunda, já que: 150 + 150 = 300px. Além disso também temos o wrap-reverse.
+
+##### ALIGNT-CONTENT: 
+Alinha os elementos quando eles estão em mais de uma linha, ou seja, ele funciona somente com o flex-wrap:wrap. Tendo as mesmas possibilidades do justify-content. Mas fazendo na horizontal.
+
 ### ITENS UTILIZADOS NOS FILHOS:
 
 ##### FLEX-GROW
@@ -42,4 +48,7 @@ Mantém os itens "espremidos" dentro do container, ou seja, um item que tenha la
 ##### FLEX
 Soma do Flex-Grow com o Flex-Shrink. Se quisermos que o elemento aumente se necessário mas não se esprema, colocamos algo como "Flex: 1 0"
 
+
+##### ORDER
+Alinha os itens ordenando de acordo com o que você define, em valores numéricos começando do 0. Isso serve para quando temos que ordenar os itens do flex por algum motivo em um ambiente responsivo.
 
