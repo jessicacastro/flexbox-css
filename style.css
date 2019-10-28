@@ -1,0 +1,12 @@
+#app {
+  display:  flex; /* ALINHA HORIZONTALMENTE */
+  flex-direction: row; /*COMO SEGUIRÃO OS ITENS FILHOS */
+  
+}
+
+.box {
+  width: 60px;
+  height: 60px;
+  background: #F00;
+  margin: 5px;
+}
